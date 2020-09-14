@@ -35,3 +35,16 @@ Mezclar las ramas del proyecto o sea agregar las nuevas ramas al rama "master"
 Si es necesario Borrar la rama agregada a la "master"
 --> git checkout -d nuevarama
 
+Conectar repositorio de la computadora con repositorio de Git Hub creado
+--> git remote add origin https://github.com/zjleiva/Uso_github.git
+    "origin" se refiere a repositorio en la computadora o sea "D:\Cursos\DisenoWebProfesional\Git"
+
+Subir archivos desde la computadora a Git Hub
+--> git push -u origin master
+
+Ver la url del repositorio remoto
+--> git remote -v 
+
+
+
+
